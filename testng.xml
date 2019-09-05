@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.atmecs.utils.roundtrip.AppTest"/>
+     <class name="org.atmecs.utils.roundtrip.Pricechoosen"/>
+     <class name="org.atmecs.utils.roundtrip.Edit"/>
+    </classes>
+  </test>
+  <test name="Test2" thread-count="5">
+  <classes>
+      <class name="org.atmecs.utils.flight_ticket.AppTest"/>
+     <class name="org.atmecs.utils.flight_ticket.Pricechoosen"/>
+      <class name="org.atmecs.utils.flight_ticket.Edit"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

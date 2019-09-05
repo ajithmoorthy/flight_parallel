@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite3">
+  <test name="Test">
+    <classes>
+      <class name="org.atmecs.utils.roundtrip.AppTest"/>
+    </classes>
+  </test>
+   <test name="Test1">
+    <classes>
+      <class name="org.atmecs.utils.roundtrip.Pricechoosen"/>
+    </classes>
+  </test>
+  <test name="Test2">
+    <classes>
+      <class name="org.atmecs.utils.roundtrip.Edit"/>
+    </classes>
+  </test>
+</suite> 
